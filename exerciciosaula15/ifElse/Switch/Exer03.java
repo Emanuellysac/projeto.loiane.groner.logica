@@ -1,3 +1,6 @@
+/* Faça um Programa que verifique se uma letra digitada é "F" ou "M". 
+Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 import java.util.Scanner;
 
@@ -23,7 +26,7 @@ public class Exer03 {
 
 	        } else {
 
-	            System.out.println("Sexo inv�lido");
+	            System.out.println("Sexo inválido");
 
 	        }
 
