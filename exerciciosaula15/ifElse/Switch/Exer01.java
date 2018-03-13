@@ -1,3 +1,6 @@
+/* FaÃ§a um Programa que peÃ§a dois nÃºmeros e imprima o maior deles. */
+
+
 package br.com.exerciciosaula15.ifElse.Switch;
 	import java.util.Scanner;
 
@@ -7,16 +10,16 @@ package br.com.exerciciosaula15.ifElse.Switch;
 	        
 	        Scanner scan = new Scanner(System.in);
 	        
-	        System.out.println("Entre com o primeiro número");
+	        System.out.println("Entre com o primeiro nÃºmero");
 	        int num1 = scan.nextInt();
 	        
-	        System.out.println("Entre com o segundo número");
+	        System.out.println("Entre com o segundo nÃºmero");
 	        int num2 = scan.nextInt(); 
 	        
 	        if (num1 > num2){
-	            System.out.println("O num1 é maior: " + num1);
+	            System.out.println("O num1 Ã© maior: " + num1);
 	        } else {
-	            System.out.println("O num2 é maior: " + num2);
+	            System.out.println("O num2 Ã© maior: " + num2);
 	        }
 	    }
 	}
