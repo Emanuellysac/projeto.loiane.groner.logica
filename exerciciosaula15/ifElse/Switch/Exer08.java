@@ -1,3 +1,6 @@
+/* Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre
+pelo mais barato. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 	import java.util.Scanner;
 
@@ -13,19 +16,19 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        
 
-	        System.out.println("Entre com primeiro pre�o:");
+	        System.out.println("Entre com primeiro preço:");
 
 	        double preco1 = scan.nextDouble();
 
 	        
 
-	        System.out.println("Entre com segundo pre�o:");
+	        System.out.println("Entre com segundo preço:");
 
 	        double preco2 = scan.nextDouble();
 
 	        
 
-	        System.out.println("Entre com terceiro pre�o:");
+	        System.out.println("Entre com terceiro preço:");
 
 	        double preco3 = scan.nextDouble();
 
