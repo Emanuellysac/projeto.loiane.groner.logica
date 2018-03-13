@@ -1,3 +1,5 @@
+/* FaÃ§a um Programa que peÃ§a um valor e mostre na tela se o valor Ã© positivo ou negativo. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 	import java.util.Scanner;
 
@@ -13,7 +15,7 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        
 
-	        System.out.println("Entre com um número:");
+	        System.out.println("Entre com um nÃºmero:");
 
 	        int num = scan.nextInt();
 
@@ -21,11 +23,11 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        if (num >= 0){
 
-	            System.out.println("O número informado é positivo");
+	            System.out.println("O nÃºmero informado Ã© positivo");
 
 	        } else {
 
-	            System.out.println("O número informado é negativo");
+	            System.out.println("O nÃºmero informado Ã© negativo");
 
 	        }
 
