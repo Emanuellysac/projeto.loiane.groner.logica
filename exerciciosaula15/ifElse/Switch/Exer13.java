@@ -1,3 +1,6 @@
+/* Fa√ßa um Programa que leia um n√∫mero e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve
+aparecer valor inv√°lido. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 import java.util.Scanner;
 
@@ -37,7 +40,7 @@ public class Exer13 {
 
             case 3:
 
-                System.out.println("TerÁa");
+                System.out.println("Ter√ßa");
 
                 break;
 
@@ -61,13 +64,13 @@ public class Exer13 {
 
             case 7:
 
-                System.out.println("S·bado");
+                System.out.println("S√°bado");
 
                 break;
 
             default:
 
-                System.out.println("N„o È uma dia da semana v·lido");
+                System.out.println("N√£o √© uma dia da semana v√°lido");
 
         }
 
