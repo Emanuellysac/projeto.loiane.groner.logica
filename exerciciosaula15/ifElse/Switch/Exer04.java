@@ -1,3 +1,5 @@
+/* Fa√ßa um Programa que verifique se uma letra digitada √© vogal ou consoante. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 	import java.util.Scanner;
 
@@ -37,7 +39,7 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        if (letra.length() > 1){
 
-	            System.out.println("N„o È uma letra v·lida");
+	            System.out.println("N√£o √© uma letra v√°lida");
 
 	        } else {
 
