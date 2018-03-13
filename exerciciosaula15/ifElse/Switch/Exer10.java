@@ -1,3 +1,6 @@
+/* Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a
+mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 	import java.util.Scanner;
 
@@ -13,7 +16,7 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        
 
-	        System.out.println("Digite o turno que voc� estuda:");
+	        System.out.println("Digite o turno que você estuda:");
 
 	        String turno = scan.next();
 
@@ -33,7 +36,7 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	            case "N": System.out.println("Boa noite!"); break;  
 
-	            default: System.out.println("Valor inv�lido"); 
+	            default: System.out.println("Valor inválido"); 
 
 	        }
 
