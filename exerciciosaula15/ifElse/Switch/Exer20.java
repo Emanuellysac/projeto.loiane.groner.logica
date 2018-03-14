@@ -1,3 +1,13 @@
+/* Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+.  "Telefonou para a vítima?"
+a. "Esteve no local do crime?"
+b. "Mora perto da vítima?"
+c. "Devia para a vítima?"
+d. "Já trabalhou com a vítima?"
+O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser
+classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente". */
+
+
 package br.com.exerciciosaula15.ifElse.Switch;
 
 import java.util.Scanner;
@@ -14,7 +24,7 @@ public class Exer20 {
 
         
 
-        System.out.println("Telefonou para a v�tima?");
+        System.out.println("Telefonou para a vítima?");
 
         String resp1 = scan.next();
 
@@ -26,19 +36,19 @@ public class Exer20 {
 
         
 
-        System.out.println("Mora perto da v�tima?");
+        System.out.println("Mora perto da vítima?");
 
         String resp3 = scan.next();
 
         
 
-        System.out.println("J� trabalhou com a v�tima?");
+        System.out.println("Já trabalhou com a vítima?");
 
         String resp4 = scan.next();
 
         
 
-        System.out.println("Devia para a v�tima?");
+        System.out.println("Devia para a vítima?");
 
         String resp5 = scan.next();
 
@@ -94,7 +104,7 @@ public class Exer20 {
 
         } else if (cont == 3 || cont == 4){
 
-            System.out.println("C�mplice");
+            System.out.println("Cúmplice");
 
         } else if (cont == 5){
 
