@@ -1,3 +1,5 @@
+/* Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto. */
+
 package br.com.exerciciosaula15.ifElse.Switch;
 
 import java.util.Scanner;
@@ -24,11 +26,11 @@ public class Exer17 {
 
        if ((ano % 400 == 0) || (ano % 4 == 0 && ano % 100 != 0)){
 
-           System.out.println("� bissexto");
+           System.out.println("é bissexto");
 
        } else {
 
-           System.out.println("n�o � bissexto");
+           System.out.println("não é bissexto");
 
        }
 
