@@ -1,3 +1,7 @@
+/* Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação
+deve ser acompanhado de uma frase que diga se o número é: par ou ímpar; positivo ou negativo; */
+
+
 package br.com.exerciciosaula15.ifElse.Switch;
 
 import java.util.Scanner;
@@ -14,19 +18,19 @@ public class Exer19 {
 
         
 
-        System.out.println("Entre com o primeiro n�mero:");
+        System.out.println("Entre com o primeiro número:");
 
         int num1 = scan.nextInt();
 
         
 
-        System.out.println("Entre com o segundo n�mero:");
+        System.out.println("Entre com o segundo número:");
 
         int num2 = scan.nextInt();
 
         
 
-        System.out.println("Entre com a opera��o (+ - / *): ");
+        System.out.println("Entre com a operação (+ - / *): ");
 
         String operacao = scan.next();
 
@@ -50,7 +54,7 @@ public class Exer19 {
 
             default: 
 
-                System.out.println("Opera��o inv�lida"); 
+                System.out.println("Operação inválida"); 
 
                 valida = false;
 
@@ -84,7 +88,7 @@ public class Exer19 {
 
             }else {
 
-                System.out.println("resultado �mpar");
+                System.out.println("resultado ímpar");
 
             }
 
