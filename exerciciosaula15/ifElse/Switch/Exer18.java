@@ -1,3 +1,6 @@
+/* Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão). */
+
+
 package br.com.exerciciosaula15.ifElse.Switch;
 
 	import java.util.Scanner;
@@ -12,7 +15,7 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        
 
-	        System.out.println("Entre com um n�mero");
+	        System.out.println("Entre com um número");
 
 	        int num = scan.nextInt();
 
@@ -24,7 +27,7 @@ package br.com.exerciciosaula15.ifElse.Switch;
 
 	        } else {
 
-	            System.out.println("�mpar");
+	            System.out.println("ímpar");
 
 	        }
 
